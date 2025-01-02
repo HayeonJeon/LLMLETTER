@@ -46,7 +46,7 @@ st.markdown(streamlit_style, unsafe_allow_html=True)
 st.title('SNU 3년 후 나에게서의 편지 Generation Test')
 st.markdown('---')
 
-system_lib_file = './data/prompt_template/sys_template.txt'
+system_lib_file = '/Users/jeonhayeon/future-self-letter/data/prompt_template/sys_template.txt'
 f = open(system_lib_file, "r")
 sys_prompt = f.read()
 f.close()
